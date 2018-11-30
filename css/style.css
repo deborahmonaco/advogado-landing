@@ -1,0 +1,449 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+a, h5, p{
+    font-family: 'Raleway', sans-serif;
+}
+
+h2, h4, .aspas{
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+}
+
+/* header */
+
+header{
+    background: rgb(228, 228, 228);
+}
+
+.linha-vertical{
+    height: 90px;
+    width: 1px;
+    background: #433443;
+    margin-left: 6px;
+    margin-bottom: 4px; 
+}
+
+nav img{
+    width: 150px;
+}
+
+nav .header-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav ul{
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0 10px;
+    color: #716671;
+    font-size: 14px;
+}
+
+nav a{
+    color: #716671;
+    text-decoration: none;
+    width: 150px;
+    width: 100%;
+    padding: 10px 5px 5px 70px;
+}
+
+nav a:hover {
+    color:#00d1de;
+    border-bottom: 2px solid #00d1de;
+}
+
+/* header drop-down */
+
+.drop-down li{
+    display: none;
+}
+
+.active-drop-down li{
+    display: block;
+}
+
+.drop-down{
+    position: absolute;
+    padding: 0;
+    padding-top: 20px;
+    margin: 0 0 0 -10px;
+}
+
+.drop-down a:hover {
+    color:#00d1de;
+    border-bottom: 0px solid #00d1de;
+}
+
+/* banner */
+
+.banner {
+    height: 600px;;
+    background: rgb(228, 228, 228);
+    
+}
+
+.banner .interno{
+    position: absolute;
+    display: flex;
+    height: inherit;
+    width: 100%;
+}
+
+
+
+.banner .container{
+    width: 80%;
+    position: absolute;
+    z-index: 0;
+    left: 10%;
+    align-self: center;
+}
+
+.banner .container .lado-1{
+    width: 62%;
+}
+
+
+.banner .lado-2 {
+    height: 100%; 
+ 
+    align-self: flex-end;
+ 
+    position: absolute;
+    z-index: 0;
+    right: 0;
+}
+
+.banner .lado-2 img{
+    height: 100%;
+}
+
+.header-content .lado-1{
+    width: 40%;
+    
+}
+
+.banner h3{
+    margin-top: 5px;
+}
+h3{
+    font-size: 50px;
+    color: #433443;
+}
+
+h4{
+    font-size: 30px;
+    color: #433443;
+}
+
+h5{
+    color: #00d1de;
+    font-weight: 200;
+    display: inline-block;
+    margin-bottom: 0;
+
+}
+
+.banner .linha-horizontal{
+    display: inline-block;
+    height: 1px;
+    width: 20%;
+    background: #00d1de;
+}
+
+.spread2-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spread2-content .lado-1, .spread2-content .lado-2{
+    width: 50%;
+    height: 270px;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.spread2-content .lado-2{
+    background: #595259;
+}
+
+.spread2-content .lado-1{
+    background: #433443;
+}
+
+
+p{
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: #cecece;
+}
+
+
+
+
+.citacao{
+    font-size: 12px;
+    color: #736873;
+}
+
+.interno{
+    width:500px;
+    margin: 0 auto;
+    position: absolute;
+}
+
+
+h2{
+    font-size: 35px;
+    color: #00d1de;
+    font-weight: 100;
+}
+
+
+
+.aspas {
+    font-size: 100px;
+    color: #736873;
+    position: absolute;
+    z-index: 0;
+    top: -30px;
+}
+
+.spread2-content .lado-2 .depoimento{
+    position: relative;
+    z-index: 1;  
+}
+
+strong {
+    font-weight: bold;
+}
+
+.link {
+    margin: 20px 0;
+}
+
+.link a{
+    font-family: 'Raleway', sans-serif;
+    background: #00d1de;
+    padding: 10px 40px;
+    margin: auto;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+/* atuação */
+
+.galeria-atuacao{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+    background: #eee;
+    border-bottom: 4px solid #00d1de;
+    border-top: 4px solid #00d1de;
+}
+
+.galeria-atuacao .linha-horizontal{
+
+    height: 1px;
+    width: 50%;
+    background: #00d1de;
+    margin: 5px auto;
+}
+
+.galeria-atuacao .atuacao-grid{
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    display: flex;
+}
+
+.cima{
+    border-top: 0.5px solid #fff;
+    border-left: 0.5px solid #fff;
+    border-right: 0.5px solid #fff;
+}
+
+.baixo{
+    border-bottom: 0.5px solid #fff;
+    border-left: 0.5px solid #fff;
+    border-right: 0.5px solid #fff;
+}
+
+.grid-dentro{
+    height:95px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: .5s .1s ease-in-out;
+}
+
+.grid-dentro p{
+    display: none;
+    opacity:0;
+    width: 50%;
+    margin: 10px auto;
+    color: #00d1de;
+}
+
+.grid-dentro:hover{
+    height:70%;
+}
+
+.grid-dentro:hover p{
+    margin: auto;
+    display:block;
+    animation: detail 2s .01s forwards ease-in-out;
+}
+
+@keyframes detail{
+    0%{opacity:0}
+    100%{opacity:1}
+}
+
+.grid-titulo {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.grid-dentro h2, .grid-dentro h4{
+    margin: auto;
+}
+
+.grid-dentro a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.grid-dentro h2{
+    color: #fff;
+}
+
+.galeria-atuacao .azul{
+    background: #00d1de;
+}
+
+/* contato */
+
+
+#contato{
+    height: 450px;
+    margin: 0;
+}
+
+#contato .colunas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contato .coluna-1{
+    width: 30%;
+}
+
+#contato .coluna-2{
+    width: 70%;
+}
+
+#contato p{
+    color:#433443;
+}
+
+strong{
+    font-weight: bold;
+}
+
+form{
+    padding: 50px 0;
+    padding-top: 25px;
+}
+
+.dados{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dados input{
+    flex: 1 0 49%;
+    height: 45px;
+    margin: 2px;
+    background: #eee;
+    border-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #433443;
+    font-size: 12px;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+    margin: 2px;
+    background: #eee;
+    border-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #433443;
+    font-size: 12px;
+}
+
+.enviar{
+    width: 100%;
+    text-align: center;
+}
+
+input[type=submit]{
+    background: #00d1de;
+    width: 200px;
+    height: 35px;
+    margin: 0 auto;
+    border-style: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
+footer{
+    background: #433443;
+    height: 250px;
+}
+
+footer img{
+    max-width: 60px;
+}
+
+
+
+
+
+
+
+
+
+
